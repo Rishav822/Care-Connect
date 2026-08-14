@@ -1,0 +1,49 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good morning", "What's up"],
+      "responses": ["Hello! I am your health assistant. How can I help you today?", "Hi there. What can I do for you?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye", "Take care"],
+      "responses": ["Goodbye! Stay healthy.", "Have a great day!"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful"],
+      "responses": ["You're welcome!", "Anytime!"]
+    },
+    {
+      "tag": "disclaimer",
+      "patterns": ["Are you a doctor?", "Can you diagnose?", "Is this medical advice?"],
+      "responses": ["I am an AI assistant and not a substitute for a real doctor. Please consult a healthcare professional for any medical diagnosis or treatment."]
+    },
+    {
+      "tag": "symptoms_headache",
+      "patterns": ["I have a headache", "My head hurts", "I have a migraine", "headache"],
+      "responses": ["Headaches can be caused by stress, dehydration, or lack of sleep. Ensure you drink plenty of water and get adequate rest. However, for a persistent issue, please see a doctor. I am not a medical professional."]
+    },
+    {
+      "tag": "symptoms_fever",
+      "patterns": ["I have a fever", "I feel hot", "My temperature is high", "fever"],
+      "responses": ["A fever is often a sign that your body is fighting an infection. Rest and fluids are important. If your fever is very high or persists, you should consult a doctor immediately."]
+    },
+    {
+      "tag": "symptoms_cough",
+      "patterns": ["I have a bad cough", "I can't stop coughing", "What to do for a cough?", "coughing"],
+      "responses": ["A persistent cough can be due to many reasons like a cold, allergies, or other respiratory issues. Staying hydrated and using a humidifier can help. For a proper diagnosis, please consult a doctor."]
+    },
+    {
+      "tag": "symptoms_stomach_ache",
+      "patterns": ["My stomach hurts", "I have a stomach ache", "I have abdominal pain", "My tummy hurts"],
+      "responses": ["Stomach aches can be due to indigestion or something you ate. Try to eat light foods and stay hydrated. If the pain is severe or persists, it is very important to see a doctor."]
+    },
+    {
+      "tag": "symptoms_common_cold",
+      "patterns": ["I think I have a cold", "I'm sneezing a lot", "I have a runny nose and sore throat", "common cold symptoms"],
+      "responses": ["Symptoms like a runny nose, sneezing, and a sore throat are common with a cold. The best treatment is plenty of rest and fluids to help your body fight it off. Remember to consult a doctor for proper medical advice."]
+    }
+  ]
+}
